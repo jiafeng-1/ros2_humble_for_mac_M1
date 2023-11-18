@@ -1,0 +1,44 @@
+{
+	// "name": "ros2_humble",
+	"remoteUser": "jiafeng",
+	// 指定要运行的镜像
+	// "image": "jiaxiaofeng/ros2_humble_mac_m1:1.0",
+	// build image
+	// "build": {
+    //     "dockerfile": "../Dockerfile",
+    //     "args": {
+    //         "USERNAME": "jiafeng"
+    //     }
+    // },
+	"workspaceFolder": "/home/jiafeng/ros/",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/home/jiafeng/ros/,type=bind",
+	"customizations": {
+		"vscode": {
+			"extensions":[
+			"ms-vscode.cpptools",
+			"ms-vscode.cpptools-themes",
+			"twxs.cmake",
+			"donjayamanne.python-extension-pack",
+			"eamodio.gitlens",
+			"ms-iot.vscode-ros"
+			]
+		}
+	},
+	"containerEnv": {
+		"ROS_DOMAIN_ID": "55"
+	},
+	"runArgs": [
+	"--net=host",
+	"-e", "DISPLAY=unix$DISPLAY"
+	],
+	"mounts": [
+	"source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached"
+	// "source=${localWorkspaceFolder}/../cache/ROS2_FOXY/build,target=/home/ws/build,type=bind",
+	// "source=${localWorkspaceFolder}/../cache/ROS2_FOXY/install,target=/home/ws/install,type=bind",
+	// "source=${localWorkspaceFolder}/../cache/ROS2_FOXY/log,target=/home/jiafeng/ros/ws_humble/log,type=bind"
+	],
+    // "postCreateCommand": "bash ./auto/auto_source.sh"
+    "postCreateCommand": " sudo chown -R jiafeng /home/jiafeng && bash /home/jiafeng/ros/auto/auto_source.sh"
+	
+	
+}

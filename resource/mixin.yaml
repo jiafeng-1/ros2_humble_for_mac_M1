@@ -1,0 +1,18 @@
+mixin:
+  - asan.mixin
+  - build-testing.mixin
+  - build-type.mixin
+  - ccache.mixin
+  - clang-libcxx.mixin
+  - compile-commands.mixin
+  - coverage.mixin
+  - gold.mixin
+  - instrument-functions.mixin
+  - lld.mixin
+  - memcheck.mixin
+  - mold.mixin
+  - ninja.mixin
+  - sccache.mixin
+  - shared.mixin
+  - test-linters.mixin
+  - tsan.mixin
