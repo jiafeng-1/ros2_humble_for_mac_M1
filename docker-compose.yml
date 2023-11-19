@@ -12,14 +12,15 @@ services:
   ros_dev_env:
     # container_name: ${ROS_DEV_CONTAINER_NAME}
     # image: ${ROS_DEV_CONTAINER_NAME} ## For now, the names are the same. Can change if ever a need arises.
-    container_name: jiafeng_ros2
-    image: jiafeng_ros2
+    container_name: ros2_humble_dev
+    image: jiaxiaofeng/ros2_humble_mac_m1:1.0
     build: ./
     volumes: 
-      - ./ws_foxy/src:/ros2_ws/src/
+      - ./:/home/jiafeng/ros 
     environment:
       - DISPLAY=novnc:0.0
-    network_mode: "host"
+      - ROS_DOMAIN_ID=55
+      - --privileged=true
     networks:
       - x11
     stdin_open: true
@@ -31,7 +32,6 @@ services:
       - DISPLAY_HEIGHT=1440
     ports:
       - "8080:8080"
-    network_mode: "host"
     networks:
       - x11
     restart: on-failure

@@ -7,5 +7,4 @@
  # @LastEditTime: 2023-11-18 22:19:44
 ### 
 
-echo 'export /opt/ros/${ROS_DISTRO}/setup.bash'
-    >> "$HOME/.bashrc"
+echo 'source /opt/ros/${ROS_DISTRO}/setup.bash' >> "$HOME/.bashrc"
