@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target talker_pop[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker_pop.dir/src/pub_topic_pop.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker_pop[0m
+[100%] Built target talker_pop
+-- Install configuration: ""
+-- Installing: /home/jiafeng/ros/install/learning_topic_cpp/lib/learning_topic_cpp/talker_pop
+-- Set runtime path of "/home/jiafeng/ros/install/learning_topic_cpp/lib/learning_topic_cpp/talker_pop" to ""
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/ament_index/resource_index/package_run_dependencies/learning_topic_cpp
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/ament_index/resource_index/parent_prefix_path/learning_topic_cpp
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/path.sh
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/path.dsv
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.bash
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.sh
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.zsh
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.dsv
+-- Installing: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/package.dsv
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/ament_index/resource_index/packages/learning_topic_cpp
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/cmake/learning_topic_cppConfig.cmake
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/cmake/learning_topic_cppConfig-version.cmake
+-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/package.xml

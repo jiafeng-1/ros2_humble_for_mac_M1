@@ -1,0 +1,6 @@
+Invoking command in '/home/jiafeng/ros/build/learning_topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jiafeng/ros/src/learning_topic_cpp -DCMAKE_INSTALL_PREFIX=/home/jiafeng/ros/install/learning_topic_cpp
+Invoked command in '/home/jiafeng/ros/build/learning_topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jiafeng/ros/src/learning_topic_cpp -DCMAKE_INSTALL_PREFIX=/home/jiafeng/ros/install/learning_topic_cpp
+Invoking command in '/home/jiafeng/ros/build/learning_topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jiafeng/ros/build/learning_topic_cpp -- -j5 -l5
+Invoked command in '/home/jiafeng/ros/build/learning_topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jiafeng/ros/build/learning_topic_cpp -- -j5 -l5
+Invoking command in '/home/jiafeng/ros/build/learning_topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jiafeng/ros/build/learning_topic_cpp
+Invoked command in '/home/jiafeng/ros/build/learning_topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jiafeng/ros/build/learning_topic_cpp

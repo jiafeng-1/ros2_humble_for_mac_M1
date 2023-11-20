@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.007267] (-) JobUnselected: {'identifier': 'learning_interface'}
+[0.008126] (-) JobUnselected: {'identifier': 'learning_pkg_cpp'}
+[0.009433] (-) JobUnselected: {'identifier': 'learning_pkg_cpp_sub'}
+[0.011131] (learning_topic_cpp) JobQueued: {'identifier': 'learning_topic_cpp', 'dependencies': OrderedDict()}
+[0.014087] (learning_topic_cpp) JobStarted: {'identifier': 'learning_topic_cpp'}
+[0.088045] (learning_topic_cpp) JobProgress: {'identifier': 'learning_topic_cpp', 'progress': 'cmake'}
+[0.096795] (learning_topic_cpp) JobProgress: {'identifier': 'learning_topic_cpp', 'progress': 'build'}
+[0.098052] (-) TimerEvent: {}
+[0.100135] (learning_topic_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiafeng/ros/build/learning_topic_cpp', '--', '-j5', '-l5'], 'cwd': '/home/jiafeng/ros/build/learning_topic_cpp', 'env': OrderedDict([('HOSTNAME', '82168ba2f634'), ('GIT_ASKPASS', '/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b72b973c-2d3f-423b-a52e-ab2c4e708629.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/jiafeng/ros/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a8a86d5c-6137-4b70-b2e1-aebae2d0c793.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a8a86d5c-6137-4b70-b2e1-aebae2d0c793.sock","/tmp/.X11-unix/X3"]'), ('DISPLAY', 'novnc:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-db3ca0b4c7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a8a86d5c-6137-4b70-b2e1-aebae2d0c793.sock'), ('ROS_DOMAIN_ID', '55'), ('AMENT_PREFIX_PATH', '/home/jiafeng/ros/install/learning_topic_cpp:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiafeng/ros/build/learning_topic_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jiafeng/ros/install/learning_topic_cpp:/opt/ros/humble')]), 'shell': False}
+[0.198335] (-) TimerEvent: {}
+[0.275592] (learning_topic_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker_pop\x1b[0m\n'}
+[0.298463] (-) TimerEvent: {}
+[0.443584] (-) TimerEvent: {}
+[0.545197] (-) TimerEvent: {}
+[0.653150] (-) TimerEvent: {}
+[0.754633] (-) TimerEvent: {}
+[0.859180] (-) TimerEvent: {}
+[0.970516] (-) TimerEvent: {}
+[1.071945] (-) TimerEvent: {}
+[1.215134] (-) TimerEvent: {}
+[1.317667] (-) TimerEvent: {}
+[1.424669] (-) TimerEvent: {}
+[1.526089] (-) TimerEvent: {}
+[1.670690] (-) TimerEvent: {}
+[1.773208] (-) TimerEvent: {}
+[1.877063] (-) TimerEvent: {}
+[1.979630] (-) TimerEvent: {}
+[2.080855] (-) TimerEvent: {}
+[2.190922] (-) TimerEvent: {}
+[2.293237] (-) TimerEvent: {}
+[2.395619] (-) TimerEvent: {}
+[2.499850] (-) TimerEvent: {}
+[2.606720] (-) TimerEvent: {}
+[2.735955] (-) TimerEvent: {}
+[2.838491] (-) TimerEvent: {}
+[2.942515] (-) TimerEvent: {}
+[3.043870] (-) TimerEvent: {}
+[3.145436] (-) TimerEvent: {}
+[3.247516] (-) TimerEvent: {}
+[3.349455] (-) TimerEvent: {}
+[3.451003] (-) TimerEvent: {}
+[3.552276] (-) TimerEvent: {}
+[3.668931] (-) TimerEvent: {}
+[3.771007] (-) TimerEvent: {}
+[3.872472] (-) TimerEvent: {}
+[4.005137] (-) TimerEvent: {}
+[4.106841] (-) TimerEvent: {}
+[4.212844] (-) TimerEvent: {}
+[4.320919] (-) TimerEvent: {}
+[4.423105] (-) TimerEvent: {}
+[4.526029] (-) TimerEvent: {}
+[4.645150] (-) TimerEvent: {}
+[4.748026] (-) TimerEvent: {}
+[4.850238] (-) TimerEvent: {}
+[4.960164] (-) TimerEvent: {}
+[5.034713] (learning_topic_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker_pop.dir/src/pub_topic_pop.cpp.o\x1b[0m\n'}
+[5.060275] (-) TimerEvent: {}
+[5.161895] (-) TimerEvent: {}
+[5.263810] (-) TimerEvent: {}
+[5.365245] (-) TimerEvent: {}
+[5.468034] (-) TimerEvent: {}
+[5.569901] (-) TimerEvent: {}
+[5.672690] (-) TimerEvent: {}
+[5.775936] (-) TimerEvent: {}
+[5.877420] (-) TimerEvent: {}
+[5.979021] (-) TimerEvent: {}
+[6.081476] (-) TimerEvent: {}
+[6.187507] (-) TimerEvent: {}
+[6.289815] (-) TimerEvent: {}
+[6.417212] (-) TimerEvent: {}
+[6.519673] (-) TimerEvent: {}
+[6.622668] (-) TimerEvent: {}
+[6.724019] (-) TimerEvent: {}
+[6.826078] (-) TimerEvent: {}
+[6.929578] (-) TimerEvent: {}
+[7.032418] (-) TimerEvent: {}
+[7.134405] (-) TimerEvent: {}
+[7.236461] (-) TimerEvent: {}
+[7.337682] (-) TimerEvent: {}
+[7.438904] (-) TimerEvent: {}
+[7.540850] (-) TimerEvent: {}
+[7.642040] (-) TimerEvent: {}
+[7.761009] (-) TimerEvent: {}
+[7.906125] (-) TimerEvent: {}
+[8.050354] (-) TimerEvent: {}
+[8.192176] (-) TimerEvent: {}
+[8.328831] (-) TimerEvent: {}
+[8.430452] (-) TimerEvent: {}
+[8.538658] (-) TimerEvent: {}
+[8.640240] (-) TimerEvent: {}
+[8.788343] (-) TimerEvent: {}
+[8.927031] (-) TimerEvent: {}
+[9.060011] (-) TimerEvent: {}
+[9.124798] (learning_topic_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker_pop\x1b[0m\n'}
+[9.160204] (-) TimerEvent: {}
+[9.261319] (-) TimerEvent: {}
+[9.379105] (-) TimerEvent: {}
+[9.480437] (-) TimerEvent: {}
+[9.581957] (-) TimerEvent: {}
+[9.683834] (-) TimerEvent: {}
+[9.785380] (-) TimerEvent: {}
+[9.921145] (-) TimerEvent: {}
+[10.024626] (-) TimerEvent: {}
+[10.129003] (-) TimerEvent: {}
+[10.230795] (-) TimerEvent: {}
+[10.332437] (-) TimerEvent: {}
+[10.442317] (-) TimerEvent: {}
+[10.545251] (-) TimerEvent: {}
+[10.646519] (-) TimerEvent: {}
+[10.750309] (-) TimerEvent: {}
+[10.857854] (-) TimerEvent: {}
+[10.959131] (-) TimerEvent: {}
+[11.064127] (-) TimerEvent: {}
+[11.174932] (-) TimerEvent: {}
+[11.276255] (-) TimerEvent: {}
+[11.377336] (-) TimerEvent: {}
+[11.487756] (-) TimerEvent: {}
+[11.612860] (-) TimerEvent: {}
+[11.693237] (learning_topic_cpp) StdoutLine: {'line': b'[100%] Built target talker_pop\n'}
+[11.712964] (-) TimerEvent: {}
+[11.731019] (learning_topic_cpp) CommandEnded: {'returncode': 0}
+[11.780921] (learning_topic_cpp) JobProgress: {'identifier': 'learning_topic_cpp', 'progress': 'install'}
+[11.798193] (learning_topic_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jiafeng/ros/build/learning_topic_cpp'], 'cwd': '/home/jiafeng/ros/build/learning_topic_cpp', 'env': OrderedDict([('HOSTNAME', '82168ba2f634'), ('GIT_ASKPASS', '/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b72b973c-2d3f-423b-a52e-ab2c4e708629.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/jiafeng/ros/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a8a86d5c-6137-4b70-b2e1-aebae2d0c793.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a8a86d5c-6137-4b70-b2e1-aebae2d0c793.sock","/tmp/.X11-unix/X3"]'), ('DISPLAY', 'novnc:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-db3ca0b4c7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a8a86d5c-6137-4b70-b2e1-aebae2d0c793.sock'), ('ROS_DOMAIN_ID', '55'), ('AMENT_PREFIX_PATH', '/home/jiafeng/ros/install/learning_topic_cpp:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiafeng/ros/build/learning_topic_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jiafeng/ros/install/learning_topic_cpp:/opt/ros/humble')]), 'shell': False}
+[11.808269] (learning_topic_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.814081] (-) TimerEvent: {}
+[11.817269] (learning_topic_cpp) StdoutLine: {'line': b'-- Installing: /home/jiafeng/ros/install/learning_topic_cpp/lib/learning_topic_cpp/talker_pop\n'}
+[11.914463] (-) TimerEvent: {}
+[12.016066] (-) TimerEvent: {}
+[12.120754] (-) TimerEvent: {}
+[12.242163] (-) TimerEvent: {}
+[12.380235] (-) TimerEvent: {}
+[12.512720] (learning_topic_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/jiafeng/ros/install/learning_topic_cpp/lib/learning_topic_cpp/talker_pop" to ""\n'}
+[12.559182] (-) TimerEvent: {}
+[12.560693] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/ament_index/resource_index/package_run_dependencies/learning_topic_cpp\n'}
+[12.569146] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/ament_index/resource_index/parent_prefix_path/learning_topic_cpp\n'}
+[12.579816] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/ament_prefix_path.sh\n'}
+[12.585647] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/ament_prefix_path.dsv\n'}
+[12.603473] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/path.sh\n'}
+[12.621506] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/path.dsv\n'}
+[12.628071] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.bash\n'}
+[12.634767] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.sh\n'}
+[12.640821] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.zsh\n'}
+[12.648113] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.dsv\n'}
+[12.657278] (learning_topic_cpp) StdoutLine: {'line': b'-- Installing: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/package.dsv\n'}
+[12.663595] (-) TimerEvent: {}
+[12.664617] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/ament_index/resource_index/packages/learning_topic_cpp\n'}
+[12.721026] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/cmake/learning_topic_cppConfig.cmake\n'}
+[12.730907] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/cmake/learning_topic_cppConfig-version.cmake\n'}
+[12.742901] (learning_topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/package.xml\n'}
+[12.748212] (learning_topic_cpp) CommandEnded: {'returncode': 0}
+[12.767840] (-) TimerEvent: {}
+[12.871155] (-) TimerEvent: {}
+[12.997944] (-) TimerEvent: {}
+[13.103932] (-) TimerEvent: {}
+[13.231752] (-) TimerEvent: {}
+[13.241327] (learning_topic_cpp) JobEnded: {'identifier': 'learning_topic_cpp', 'rc': 0}
+[13.252828] (-) EventReactorShutdown: {}

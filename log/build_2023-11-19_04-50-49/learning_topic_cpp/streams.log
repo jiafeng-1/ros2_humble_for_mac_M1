@@ -1,0 +1,26 @@
+[0.173s] Invoking command in '/home/jiafeng/ros/build/learning_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiafeng/ros/build/learning_topic_cpp -- -j5 -l5
+[0.234s] [35m[1mConsolidate compiler generated dependencies of target talker_pop[0m
+[5.021s] [ 50%] [32mBuilding CXX object CMakeFiles/talker_pop.dir/src/pub_topic_pop.cpp.o[0m
+[9.105s] [100%] [32m[1mLinking CXX executable talker_pop[0m
+[11.625s] [100%] Built target talker_pop
+[11.647s] Invoked command in '/home/jiafeng/ros/build/learning_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiafeng/ros/build/learning_topic_cpp -- -j5 -l5
+[11.699s] Invoking command in '/home/jiafeng/ros/build/learning_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiafeng/ros/build/learning_topic_cpp
+[11.758s] -- Install configuration: ""
+[11.765s] -- Installing: /home/jiafeng/ros/install/learning_topic_cpp/lib/learning_topic_cpp/talker_pop
+[12.522s] -- Set runtime path of "/home/jiafeng/ros/install/learning_topic_cpp/lib/learning_topic_cpp/talker_pop" to ""
+[12.529s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/ament_index/resource_index/package_run_dependencies/learning_topic_cpp
+[12.535s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/ament_index/resource_index/parent_prefix_path/learning_topic_cpp
+[12.584s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/ament_prefix_path.sh
+[12.591s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/ament_prefix_path.dsv
+[12.596s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/path.sh
+[12.609s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/environment/path.dsv
+[12.628s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.bash
+[12.634s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.sh
+[12.653s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.zsh
+[12.660s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/local_setup.dsv
+[12.667s] -- Installing: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/package.dsv
+[12.674s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/ament_index/resource_index/packages/learning_topic_cpp
+[12.681s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/cmake/learning_topic_cppConfig.cmake
+[12.693s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/cmake/learning_topic_cppConfig-version.cmake
+[12.702s] -- Up-to-date: /home/jiafeng/ros/install/learning_topic_cpp/share/learning_topic_cpp/package.xml
+[12.747s] Invoked command in '/home/jiafeng/ros/build/learning_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiafeng/ros/build/learning_topic_cpp

@@ -1,8 +1,17 @@
+<!--
+ * @Descripttion: 
+ * @Author: Jia Feng
+ * @version: 
+ * @Date: 2023-11-19 11:04:23
+ * @LastEditors: Jia Feng
+ * @LastEditTime: 2023-11-20 21:59:46
+-->
 ## 说明
 **本工程专门针对在MAC系统arm64架构开发ros2 humble版本所搭建的docker工程**
 官方的osrf/ros:humble-desktop-full由于是amd64的，在M1芯片上搭建后，各种问题，使用X11进行显示GUI各种问题，容器内节点无法通讯，等等。所以搭建了这个工程。
 ![](./doc/ros2_humble-desktop-full.png)
 欢迎各位pr，共同维护，有问题可git提交issue，后续如果使用的人较多/问题较多，可建群沟通。
+![](./doc/ros2_humble_for_mac_m1.png)
 
 ## 支持项
 目前我测试工程已经支持：
@@ -11,6 +20,8 @@
 - docker-compose部署
 - 不显示界面也可以使用docker部署
 - 支持vscode开发
+
+![](./doc/WechatIMG22177.png)
 
 ## 文件说明
 ```bash
